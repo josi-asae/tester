@@ -1,0 +1,5 @@
+  "noflo": {
+    components": {
+      "noflo-core": "./node_modules/noflo-core",
+      "noflo-filesystem": "./node_modules/noflo-filesystem"
+    }
