@@ -1,0 +1,50 @@
+{
+    "properties": {
+        "name": "ShowContents",
+        "environment": {}
+    },
+    "inports": {},
+    "outports": {},
+    "groups": [],
+    "processes": {
+        "Read": {
+            "component": "filesystem/ReadFile",
+            "metadata": {
+                "x": 0,
+                "y": 72,
+                "width": 72,
+                "height": 72,
+                "label": "Read"
+            }
+        },
+        "Display": {
+            "component": "core/Output",
+            "metadata": {
+                "x": 144,
+                "y": 36,
+                "width": 72,
+                "height": 72,
+                "label": "Display"
+            }
+        }
+    },
+    "connections": [
+        {
+            "src": {
+                "process": "Read",
+                "port": "out"
+            },
+            "tgt": {
+                "process": "Display",
+                "port": "in"
+            }
+        },
+        {
+            "data": "package.json",
+            "tgt": {
+                "process": "Read",
+                "port": "in"
+            }
+        }
+    ]
+}
