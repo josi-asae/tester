@@ -1,0 +1,23 @@
+{
+  "name": "my-noflo-example-app",
+  "version": "1.0.0",
+  "description": "thing",
+  "main": "index.js",
+  "scripts": {
+    "test": "thing2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "tester"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "Josi Lemke",
+  "license": "ISC",
+  "dependencies": {
+    "noflo": "^0.5.11",
+    "noflo-core": "^0.1.11",
+    "noflo-filesystem": "^1.0.6"
+  }
+}
