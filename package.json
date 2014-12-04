@@ -17,11 +17,12 @@
   "license": "ISC",
   "dependencies": {
     "noflo": "^0.5.11",
-	  "components": {
+    "noflo-core": "^0.1.11",
+    "noflo-filesystem": "^1.0.6"
+  },
+  "noflo": {
+    components": {
       "noflo-core": "./node_modules/noflo-core",
       "noflo-filesystem": "./node_modules/noflo-filesystem"
     }
-    "noflo-core": "^0.1.11",
-    "noflo-filesystem": "^1.0.6"
-  }
 }
